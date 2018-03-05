@@ -1,0 +1,15 @@
+{
+    "A": {
+        "label": "jean",
+        "price": 50
+    },
+    "B": {
+        "label": "shirt",
+        "price": 30,
+        "specialPrice": "3 for 70"
+    },
+    "C": {
+        "label": "pair of shoes",
+        "price": 65
+    }
+}
