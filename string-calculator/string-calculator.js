@@ -8,7 +8,7 @@ function add(numbers) {
     let list = numbers.split(/[\n,]+/);
     let result = list.reduce((acc, curr) => {
         if (curr < 0) return negativeNumbers.push(curr);
-        acc += Number(curr);
+        if (curr <= 1000) acc += Number(curr);
         return acc;
     }, 0);
 

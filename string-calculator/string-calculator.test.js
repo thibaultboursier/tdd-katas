@@ -17,6 +17,11 @@ describe('String calculator', () => {
         expect(stringCalculator.add('6\n9')).toBe(15);
     })
 
+    it('should ignore numbers bigger than 1000', () => {
+        expect(stringCalculator.add('3000')).toBe(0);
+        expect(stringCalculator.add('8,9,1200')).toBe(17);
+    })
+
     it('should throw an error when some number is negative', () => {
         expect(() => {
             stringCalculator.add('-8');
