@@ -1,0 +1,22 @@
+{
+  "name": "tdd-katas",
+  "version": "1.0.0",
+  "description": "practising tdd with katas",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thibaultboursier/tdd-katas.git"
+  },
+  "author": "Thibault Boursier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thibaultboursier/tdd-katas/issues"
+  },
+  "homepage": "https://github.com/thibaultboursier/tdd-katas#readme",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
