@@ -25,10 +25,6 @@ class Checkout{
         }, 0);
     }
 
-    applySpecialPrice(product) {
-
-    }
-
     scan(productCode) {
         const product = this.productList[productCode];
 

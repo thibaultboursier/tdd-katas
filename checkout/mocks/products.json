@@ -5,8 +5,7 @@
     },
     "B": {
         "label": "shirt",
-        "price": 30,
-        "specialPrice": "3 for 70"
+        "price": 30
     },
     "C": {
         "label": "pair of shoes",
